@@ -1,18 +1,30 @@
 # EAD2 CA2 ServerSide  
 > Rachel (Coded) : (DONE)
-  - GET (all), 
+  - GameServerItem.cs (Model Folder)
   
-  - GET(by id), 
+  - GameServerContext.cs (Model Folder)
   
-  - GET(by GameName), 
+  - AppSettings.json
   
-  - POST (to add a game), 
+  - Program.cs
   
-  - PUT (to update game details), 
+  - Startup.cs
   
-  - DELETE (a game).
+  - GameServerItemsController (Controller Folder) :  
   
-  - Migration of DB, startup.cs, program.cs, appsettings.json, GameServerItemsController.cs (Controller Folder), GameServerContext.cs(Model Folder) and GameServerItem.cs
+  -- GET (all), 
+  
+  -- GET(by id), 
+  
+  -- GET(by GameName), 
+  
+  -- POST (to add a game), 
+  
+  -- PUT (to update game details), 
+  
+  -- DELETE (a game).
+  
+  -Migration of DB
   
   > Rachel (Publishing) (Done)
   
@@ -32,14 +44,16 @@
   
   
  > Louise Coded : (Done) 
+ 
+ - GameServerItemsController (Controller Folder) : 
 
-  - GET (by switch platform)
+  -- GET (by switch platform)
   
-  - GET (by playstation4 platform)
+  -- GET (by playstation4 platform)
   
-  - GET (by xbox1 platform)
+  -- GET (by xbox1 platform)
   
-  - GET (by PC platform)
+  -- GET (by PC platform)
   
  
 
