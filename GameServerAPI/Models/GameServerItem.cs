@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
+//Rachel
 namespace GameServerAPI.Models
 {
     public class GameServerItem

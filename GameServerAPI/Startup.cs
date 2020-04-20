@@ -7,11 +7,12 @@ using GameServerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
+//Rachel
 namespace GameServerAPI
 {
     // https://www.c-sharpcorner.com/blogs/learn-asp-net-core-web-api-restful-in-azure-app-service
     // https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
-    public class Startfup
+    public class Startup
     {
         public Startup(IConfiguration configuration)
         {
