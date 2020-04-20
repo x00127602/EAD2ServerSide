@@ -7,6 +7,7 @@ using GameServerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
+
 //Rachel
 namespace GameServerAPI
 {
@@ -25,11 +26,13 @@ namespace GameServerAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<GameServerContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("GameServerContext")));
+            
             /*
-            services.AddAzureClients(ApplicationBuilder=>
+            services.AddAzureClients(builder=>
             {
-                ApplicationBuilder.AddBlobServiceClient(Configuration["ConnectionStrings:ConnectionString"]);
-            });*/
+                builder.AddBlobServiceClient(Configuration["ConnectionStrings:ConnectionString"]);
+            });
+            */
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
