@@ -24,7 +24,7 @@
   
   -- DELETE (a game).
   
-  -Migration of DB
+  - Migration of DB
   
   > Rachel (Publishing) (Done)
   
