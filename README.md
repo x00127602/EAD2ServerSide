@@ -1,5 +1,5 @@
-"# EAD2ServerSide" 
-> Rachel Coded : (DONE)
+# EAD2 CA2 ServerSide  
+> Rachel (Coded) : (DONE)
   - GET (all), 
   
   - GET(by id), 
@@ -12,7 +12,7 @@
   
   - DELETE (a game).
   
-  > Rachel (Publishing)
+  > Rachel (Publishing) (Done)
   
   - Hosted and published on Azure creating SQL Database also.
   
