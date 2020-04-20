@@ -128,6 +128,10 @@ C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
@@ -142,10 +146,6 @@ C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\obj\Debug\netcoreapp3.1\GameServerAPI.csproj.CoreCompileInputs.cache
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\obj\Debug\netcoreapp3.1\GameServerAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rache\source\repos\GameServerAPI\GameServerAPI\obj\Debug\netcoreapp3.1\GameServerAPI.MvcApplicationPartsAssemblyInfo.cache

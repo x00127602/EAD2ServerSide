@@ -9,6 +9,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2dEcZ47rO0KMinHDz7LefAAAAAACAAAAAAAQZgAAAAEAACAAAACPynsA54OeiXwXy+7ygt5OotCg/dYxQYz5YIUmwbK6RAAAAAAOgAAAAAIAACAAAADMXW64Guu/NQ1YheL4QcRvf9jQLOuvuXOBEtDF3T3r5YAAAADPZSdMfKapBm2MYMpTeBA/8PhYZaStYWVN9i/lwwosince24LXAnu6uELJZX8nPWfQSvrX9lEGb/08AWy8jcPbKdCy6KStu5m3O6JeH3g9Jw/UClBa9xElWhUagkwc5x7vvbauIK813Yu9faxZrEbkq4AVSvmtAg2aqZ28XHt150AAAABFf/aBi6XtccY8OXWti/S83T1SQF7PMypDCPOs0Nn5GdAgJv/5tQymTPy6FkSGM9bonVFaTHy8iKqI09bW976e</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
+    <DestinationConnectionStrings Include="GameServerContext">
+      <Value>Data Source=tcp:gameserverapirachellouisedbserver.database.windows.net,1433%3bInitial Catalog=GameServerAPIRachelLouise_db%3bUser Id=RachelLouise%40gameserverapirachellouisedbserver%3bPassword=HarleyQuinn1!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
     <EFMigrations Include="GameServerAPI.Models.GameServerContext">
       <Value>Data Source=tcp:gameserverapirachellouisedbserver.database.windows.net,1433%3bInitial Catalog=GameServerAPIRachelLouise_db%3bUser Id=RachelLouise%40gameserverapirachellouisedbserver%3bPassword=HarleyQuinn1!</Value>
     </EFMigrations>

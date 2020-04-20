@@ -3,4 +3,7 @@
   <parameter name="IIS Web Application Name" description="" value="GameServerAPIRachelLouise" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\rache\\source\\repos\\GameServerAPI\\GameServerAPI\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="GameServerAPI.Models.GameServerContext" description="" value="Data Source=tcp:gameserverapirachellouisedbserver.database.windows.net,1433;Initial Catalog=GameServerAPIRachelLouise_db;User Id=RachelLouise@gameserverapirachellouisedbserver;Password=HarleyQuinn1!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\rache\\source\\repos\\GameServerAPI\\GameServerAPI\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\GameServerAPI\.Models\.GameServerContext\.sql$" />
+  </parameter>
 </parameters>

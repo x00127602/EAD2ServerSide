@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 
 //Rachel
 namespace GameServerAPI
@@ -14,8 +15,8 @@ namespace GameServerAPI
     {
         public static void Main(string[] args)
         {
-
             CreateHostBuilder(args).Build().Run();
+           
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

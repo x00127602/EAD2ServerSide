@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
+using System.ComponentModel.DataAnnotations.Schema;
 
 //Rachel
 namespace GameServerAPI.Models
@@ -30,5 +31,7 @@ namespace GameServerAPI.Models
         //Star Rating
         [Range(0, 5)]
         public double Rating { get; set; }
+
+        
     }
 }

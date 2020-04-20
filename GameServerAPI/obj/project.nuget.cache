@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OCBtHOju+Ad7xrRMKuJqPufu+fPTktKqwi3ChFrmNfKmQt6ioy/NLM2VzKF6A+XKgT7L7xF58AOcGsXlUHKWLg==",
+  "dgSpecHash": "79Yo9i8mcwgO/qkByNMV8lw6++uMrHsCfY+L+20QFle3eRTrK8S+SVkIUdEHnXBpU6Usxk1huIg7hfFxPMIaZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rache\\source\\repos\\GameServerAPI\\GameServerAPI\\GameServerAPI.csproj",
   "expectedPackageFiles": [
@@ -23,13 +23,13 @@
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.3\\microsoft.entityframeworkcore.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.3\\microsoft.entityframeworkcore.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.3\\microsoft.entityframeworkcore.analyzers.3.1.3.nupkg.sha512",
-    "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.1\\microsoft.entityframeworkcore.design.3.1.1.nupkg.sha512",
+    "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.3\\microsoft.entityframeworkcore.design.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.3\\microsoft.entityframeworkcore.inmemory.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.3\\microsoft.entityframeworkcore.relational.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.1\\microsoft.entityframeworkcore.sqlite.3.1.1.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.1\\microsoft.entityframeworkcore.sqlite.core.3.1.1.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.3\\microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
-    "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.1\\microsoft.entityframeworkcore.tools.3.1.1.nupkg.sha512",
+    "C:\\Users\\rache\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.3\\microsoft.entityframeworkcore.tools.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.3\\microsoft.extensions.caching.memory.3.1.3.nupkg.sha512",
     "C:\\Users\\rache\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",

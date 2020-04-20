@@ -34,7 +34,7 @@ namespace GameServerAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GameServerItem>>> GetGameServerItems()
         {
-            return await _context.GameServerItems.ToListAsync();
+            return await _context.GameServerItem.ToListAsync();
         }
 
 
@@ -43,7 +43,7 @@ namespace GameServerAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<GameServerItem>> GetGameServerItem(long id)
         {
-            var gameServerItem = await _context.GameServerItems.FindAsync(id);
+            var gameServerItem = await _context.GameServerItem.FindAsync(id);
 
             if (gameServerItem == null)
             {
@@ -170,7 +170,7 @@ namespace GameServerAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<GameServerItem>> PostGameServerItem(GameServerItem gameServerItem)
         {
-            _context.GameServerItems.Add(gameServerItem);
+            _context.GameServerItem.Add(gameServerItem);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetGameServerItem), new { id = gameServerItem.Id }, gameServerItem);
@@ -180,13 +180,13 @@ namespace GameServerAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<GameServerItem>> DeleteGameServerItem(long id)
         {
-            var gameServerItem = await _context.GameServerItems.FindAsync(id);
+            var gameServerItem = await _context.GameServerItem.FindAsync(id);
             if (gameServerItem == null)
             {
                 return NotFound();
             }
 
-            _context.GameServerItems.Remove(gameServerItem);
+            _context.GameServerItem.Remove(gameServerItem);
             await _context.SaveChangesAsync();
 
             return gameServerItem;
@@ -194,7 +194,7 @@ namespace GameServerAPI.Controllers
 
         private bool GameServerItemExists(long id)
         {
-            return _context.GameServerItems.Any(e => e.Id == id);
+            return _context.GameServerItem.Any(e => e.Id == id);
         }
     }
 }

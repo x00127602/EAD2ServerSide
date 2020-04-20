@@ -7,13 +7,15 @@ using Microsoft.EntityFrameworkCore;
 //Rachel
 namespace GameServerAPI.Models
 {
-    public class GameServerContext:DbContext
+    public class GameServerContext : DbContext
     {
         public GameServerContext(DbContextOptions<GameServerContext> options)
             : base(options)
         {
         }
 
-        public DbSet<GameServerItem> GameServerItems { get; set; }
+        public DbSet<GameServerItem> GameServerItem { get; set; }
+
+       
     }
 }

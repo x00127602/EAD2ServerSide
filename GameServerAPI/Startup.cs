@@ -24,11 +24,16 @@ namespace GameServerAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<GameServerContext>(opt =>opt.UseInMemoryDatabase("GameList"));
+            services.AddDbContext<GameServerContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("GameServerContext")));
+            /*
+            services.AddAzureClients(ApplicationBuilder=>
+            {
+                ApplicationBuilder.AddBlobServiceClient(Configuration["ConnectionStrings:ConnectionString"]);
+            });*/
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Weather API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Game Server API", Version = "v1" });
             });
         }
 
@@ -41,7 +46,7 @@ namespace GameServerAPI
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Weather API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Game API V1");
             });
             if (env.IsDevelopment())
             {
