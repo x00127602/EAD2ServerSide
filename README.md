@@ -12,6 +12,8 @@
   
   - DELETE (a game).
   
+  - Migration of DB, startup.cs, program.cs, appsettings.json, GameServerItemsController.cs (Controller Folder), GameServerContext.cs(Model Folder) and GameServerItem.cs
+  
   > Rachel (Publishing) (Done)
   
   - Hosted and published on Azure creating SQL Database also.
